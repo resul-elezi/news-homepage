@@ -19,7 +19,6 @@
     font-weight: 800;
     src: url('../fonts/inter-800.woff2') format('woff2');
   }
-
 :root {
     --soft-orange: hsl(35, 77%, 62%);
     --soft-red: hsl(5, 85%, 63%);
