@@ -39,7 +39,7 @@ body {
   margin: 1rem;
 }
 header {
-  margin-block: 1.78125rem 1.875rem;
+  margin-block: 1.78125rem 1.96875rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,6 +51,7 @@ header {
 .menu {
   width: 2.5rem;
   height: 1.0625rem;
+  cursor: pointer;
 }
 nav, .menu-close {
   display: none;
