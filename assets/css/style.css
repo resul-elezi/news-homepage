@@ -39,14 +39,22 @@ body {
   margin: 1rem;
 }
 header {
-  margin-block: 1.78125rem 1.3125rem;
+  margin-block: 1.78125rem 1.875rem;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo {
   width: 2.875rem;
   height: 1.76875rem;
 }
-
+.menu {
+  width: 2.5rem;
+  height: 1.0625rem;
+}
+nav, .menu-close {
+  display: none;
+}
 
 .hero-img {
   max-width: 100%;
