@@ -27,8 +27,23 @@
     --dark-grayish-blue: hsl(236, 13%, 42%);
     --very-dark-blue: hsl(240, 100%, 5%);
 }
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html {
     font-family: 'Inter', sans-serif;
+}
+body {
+  margin: 1rem;
+}
+header {
+  display: flex;
+}
+.logo {
+  width: 2.8125rem;
+  height: 1.6875rem;
 }
 
 .attribution {
