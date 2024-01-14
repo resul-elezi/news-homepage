@@ -39,11 +39,19 @@ body {
   margin: 1rem;
 }
 header {
+  margin-block: 1.75rem 1.3125rem;
   display: flex;
 }
 .logo {
-  width: 2.8125rem;
-  height: 1.6875rem;
+  width: 2.875rem;
+  height: 1.76875rem;
+}
+
+
+.hero-img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .attribution {
