@@ -76,6 +76,15 @@ nav, .menu-close {
 .hero-text {
   line-height: 1.75;
 }
+.hero-cta {
+  margin-top: 1.5rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 5.5px;
+  color: white;
+  background: var(--soft-red);
+  border: none;
+}
 
 .attribution {
     font-size: 11px;
