@@ -84,6 +84,7 @@ nav, .menu-close {
   color: white;
   background: var(--soft-red);
   border: none;
+  cursor: pointer;
 }
 
 .attribution {
