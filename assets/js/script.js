@@ -7,9 +7,9 @@ menuIcon.onclick = function() {
     navBar.classList.toggle("open-menu");
 
     if(navBar.classList.contains("open-menu")) {
-        menuIcon.src = "../image/icon-menu-close.svg";
+        menuIcon.src = "assets/images/icon-menu-close.svg";
     }
     else{
-        menuIcon.src = "../images/icon-menu.svg";
+        menuIcon.src = "assets/images/icon-menu.svg";
     }
 }
