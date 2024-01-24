@@ -54,9 +54,17 @@ header {
   height: 1.0625rem;
   cursor: pointer;
 }
+.menu.open-menu {
+  width: 2rem;
+  height: 1.9375rem;
+}
 nav, .menu-close {
   display: none;
 }
+/* .open-menu {
+  display: flex;
+  flex-direction: column;
+} */
 
 .hero-img {
   max-width: 100%;
