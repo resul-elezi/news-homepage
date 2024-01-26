@@ -45,6 +45,9 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.header.open-menu {
+  margin-block: 1.7rem 1.89rem;
+}
 .logo {
   width: 2.875rem;
   height: 1.76875rem;
@@ -58,6 +61,7 @@ header {
 .menu.open-menu {
   width: 2rem;
   height: 1.9375rem;
+  margin-right: .25rem;
 }
 .nav-bar {
   width: 0;
@@ -93,6 +97,18 @@ header {
   visibility: visible;
   min-height: 100vh;
   min-height: 100svh;
+}
+.overlay {
+  background-image: rgba(0, 0, 0, .5);
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay.menu-open {
+  min-height: 100vh;
+  min-height: 100svh;
+  visibility: visible;
+  opacity: 1;
 }
 .hero-img {
   max-width: 100%;
