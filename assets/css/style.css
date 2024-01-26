@@ -37,12 +37,7 @@ html {
 }
 body {
   margin: 1rem;
-  font-size: 0.9375rem;
-}
-.body.menu-open {
-  background-size: cover;
-  background-image: linear-gradient(hsl(236, 13%, 42%), hsl(236, 13%, 42%));
-  /* filter: blur(6px); */
+  font-size: .9375rem;
 }
 header {
   margin-block: 1.78125rem 1.96875rem;
@@ -79,6 +74,7 @@ header {
   /* justify-content: center; */
   /* align-items: center; */
   overflow: hidden;
+  visibility: hidden;
 }
 .nav-bar.open-menu a {
   opacity: 1;
@@ -94,6 +90,7 @@ header {
 }
 .nav-bar.open-menu {
   width: 68%;
+  visibility: visible;
   min-height: 100vh;
   min-height: 100svh;
 }
