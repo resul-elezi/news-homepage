@@ -75,8 +75,6 @@ header {
   padding-top: 145px;
   padding-left: 1.5rem;
   gap: 1.5625rem;
-  /* justify-content: center; */
-  /* align-items: center; */
   overflow: hidden;
   visibility: hidden;
 }
@@ -105,8 +103,8 @@ header {
   opacity: 0;
 }
 .overlay.menu-open {
-  min-height: 100vh;
-  min-height: 100svh;
+  /* min-height: 100vh;
+  min-height: 100svh; */
   visibility: visible;
   opacity: 1;
 }
