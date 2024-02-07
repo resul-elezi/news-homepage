@@ -96,6 +96,7 @@ header {
   min-height: 100svh;
   background: rgba(0, 0, 0, .5);
   filter: blur(2px);
+  z-index: 1;
 }
 .nav-bar a {
   display: inline-block;
