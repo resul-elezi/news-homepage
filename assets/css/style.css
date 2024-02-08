@@ -81,7 +81,7 @@ header {
 .nav-bar.open-menu a {
   opacity: 1;
 }
-.overlay {
+.overlay.open-menu {
   position: fixed;
   top: 0;
   left: 0;
@@ -89,8 +89,6 @@ header {
   min-height: 100vh;
   min-height: 100svh;
   background: rgba(0, 0, 0, .5);
-  /* filter: blur(2px); */
-  z-index: 1;
 }
 .nav-bar a {
   display: inline-block;
