@@ -40,17 +40,20 @@ body {
   font-size: .9375rem;
 }
 header {
-  margin-block: 1.72rem 1.96875rem;
+  margin-block: 1.75rem 1.975rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header.open-menu {
-  margin-block: 1.7rem 1.89rem;
+header a {
+  display: flex;
 }
+/* .header.open-menu {
+  margin-block: 1.7rem 1.8rem;
+} */
 .logo {
-  width: 2.875rem;
-  height: 1.76875rem;
+  width: 2.84375rem;
+  height: 1.75rem;
 }
 .menu {
   width: 2.5rem;
