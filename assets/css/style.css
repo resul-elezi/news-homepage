@@ -63,6 +63,9 @@ header {
   height: 1.9375rem;
   margin-right: .25rem;
 }
+.open-menu {
+  transition: all .25s linear;
+}
 .nav-bar {
   width: 0;
   height: 0;
@@ -75,11 +78,15 @@ header {
   padding-top: 145px;
   padding-left: 1.5rem;
   gap: 1.5625rem;
-  overflow: hidden;
+  /* overflow: hidden; */
   visibility: hidden;
+  /* transition: width .25s linear; */
 }
-.nav-bar.open-menu a {
-  opacity: 1;
+.nav-bar.open-menu {
+  width: 68%;
+  visibility: visible;
+  min-height: 100vh;
+  min-height: 100svh;
 }
 .overlay.open-menu {
   position: fixed;
@@ -94,17 +101,14 @@ header {
   display: inline-block;
   text-decoration: none;
   font-size: 1.125rem;
-  font-weight: 700;
+  /* font-weight: 700; */
   color: black;
   position: relative;
-  opacity: 0;
+  /* opacity: 0; */
 }
-.nav-bar.open-menu {
-  width: 68%;
-  visibility: visible;
-  min-height: 100vh;
-  min-height: 100svh;
-}
+/* .nav-bar.open-menu a {
+  opacity: 1;
+} */
 
 .hero-img {
   max-width: 100%;
