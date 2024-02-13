@@ -120,19 +120,23 @@ header a {
   min-height: 100svh;
 }
 .hero-header {
-  padding-block: 1.3rem .9rem;
+  padding-block: 1.3rem .9125rem;
   font-size: 2.5rem;
   font-weight: 800;
   line-height: 1;
 }
 .hero-text {
   line-height: 1.75;
+  color: var(--dark-grayish-blue);
 }
 .hero-cta {
   margin-top: 1.5rem;
   padding: 1rem 2rem;
+  font-family: 'Inter';
+  font-size: .85rem;
   text-transform: uppercase;
-  letter-spacing: 5.5px;
+  letter-spacing: 4.5px;
+  font-weight: 700;
   color: white;
   background: var(--soft-red);
   border: none;
