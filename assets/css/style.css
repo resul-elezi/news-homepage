@@ -145,9 +145,11 @@ header a {
 .news {
   background: var(--very-dark-blue);
   margin-top: 4rem;
+  padding: 1.325rem;
 }
 .news-header {
   color: var(--soft-orange);
+  font-size: 2rem;
 }
 .news-article {
   border-bottom:1px solid var(--grayish-blue);
