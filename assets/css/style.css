@@ -152,6 +152,7 @@ header a {
   font-size: 2rem;
 }
 .news-article {
+  padding-top: 2rem;
   border-bottom:1px solid var(--dark-grayish-blue);
 }
 .news-article a {
