@@ -152,7 +152,7 @@ header a {
   font-size: 2rem;
 }
 .news-article {
-  border-bottom:1px solid var(--grayish-blue);
+  border-bottom:1px solid var(--dark-grayish-blue);
 }
 .news-article a {
   color: var(--off-white);
