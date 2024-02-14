@@ -156,10 +156,13 @@ header a {
   border-bottom:1px solid var(--dark-grayish-blue);
 }
 .news-article a {
+  font-size: 1.0625rem;
   color: var(--off-white);
   text-decoration: none;
 }
 .news-article p {
+  padding-block: .6rem 1.25rem;
+  line-height: 1.75;
   color: var(--grayish-blue);
 }
 
