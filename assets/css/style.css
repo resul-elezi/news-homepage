@@ -115,10 +115,10 @@ header a {
   width: 100%;
   height: auto;
 }
-.hero {
-  /* min-height: 100vh;
-  min-height: 100svh; */
-}
+/* .hero {
+  min-height: 100vh;
+  min-height: 100svh;
+} */
 .hero-header {
   padding-block: 1.3rem .9125rem;
   font-size: 2.5rem;
@@ -145,6 +145,19 @@ header a {
 .news {
   background: var(--very-dark-blue);
   margin-top: 4rem;
+}
+.news-header {
+  color: var(--soft-orange);
+}
+.news-article {
+  border-bottom:1px solid var(--grayish-blue);
+}
+.news-article a {
+  color: var(--off-white);
+  text-decoration: none;
+}
+.news-article p {
+  color: var(--grayish-blue);
 }
 
 .attribution {
