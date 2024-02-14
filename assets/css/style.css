@@ -116,8 +116,8 @@ header a {
   height: auto;
 }
 .hero {
-  min-height: 100vh;
-  min-height: 100svh;
+  /* min-height: 100vh;
+  min-height: 100svh; */
 }
 .hero-header {
   padding-block: 1.3rem .9125rem;
@@ -141,6 +141,10 @@ header a {
   background: var(--soft-red);
   border: none;
   cursor: pointer;
+}
+.news {
+  background: var(--very-dark-blue);
+  margin-top: 4rem;
 }
 
 .attribution {
