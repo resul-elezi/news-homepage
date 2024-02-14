@@ -157,6 +157,7 @@ header a {
 }
 .news-article a {
   font-size: 1.0625rem;
+  letter-spacing: .35px;
   color: var(--off-white);
   text-decoration: none;
 }
