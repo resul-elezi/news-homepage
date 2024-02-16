@@ -38,6 +38,7 @@ html {
 body {
   margin: 1rem;
   font-size: .9375rem;
+  scroll-behavior: smooth;
 }
 .header {
   margin-block: 1.75rem 1.975rem;
@@ -115,10 +116,10 @@ header a {
   width: 100%;
   height: auto;
 }
-/* .hero {
+main {
   min-height: 100vh;
   min-height: 100svh;
-} */
+}
 .hero-header {
   padding-block: 1.3rem .9125rem;
   font-size: 2.5rem;
