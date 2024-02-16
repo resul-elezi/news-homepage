@@ -34,11 +34,11 @@
 }
 html {
     font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
 }
 body {
   margin: 1rem;
   font-size: .9375rem;
-  scroll-behavior: smooth;
 }
 .header {
   margin-block: 1.75rem 1.975rem;
