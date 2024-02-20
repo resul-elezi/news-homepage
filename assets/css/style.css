@@ -152,6 +152,9 @@ main {
   padding-top: 1.9375rem;
   border-bottom:1px solid var(--dark-grayish-blue);
 }
+.news-article:last-of-type {
+  border-bottom: none;
+}
 .news-article a {
   font-size: 1.05rem;
   letter-spacing: .35px;
@@ -162,6 +165,9 @@ main {
   padding-block: .45rem 1.875rem;
   line-height: 1.75;
   color: var(--grayish-blue);
+}
+.news-article p:last-of-type {
+  padding-block: .45rem 1rem;
 }
 
 .attribution {
