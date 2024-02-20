@@ -157,7 +157,7 @@ main {
 }
 .news-article a {
   font-size: 1.05rem;
-  letter-spacing: .35px;
+  letter-spacing: .325px;
   color: var(--off-white);
   text-decoration: none;
 }
@@ -167,7 +167,7 @@ main {
   color: var(--grayish-blue);
 }
 .news-article:last-of-type p {
-  padding-bottom: 0;
+  padding-bottom: .25rem;
 }
 
 .attribution {
