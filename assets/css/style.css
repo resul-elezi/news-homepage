@@ -107,10 +107,6 @@ header a {
   position: relative;
   /* opacity: 0; */
 }
-/* .nav-bar.open-menu a {
-  opacity: 1;
-} */
-
 .hero-img {
   max-width: 100%;
   width: 100%;
@@ -163,8 +159,8 @@ main {
   text-decoration: none;
 }
 .news-article p {
-  padding-block: .6rem 1.25rem;
-  line-height: 1.75;
+  padding-block: .5rem 1.875rem;
+  line-height: 1.7;
   color: var(--grayish-blue);
 }
 
