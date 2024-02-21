@@ -171,7 +171,14 @@ main {
 }
 .post {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
+/* .post-content {
+  display: flex;
+
+} */
 
 .attribution {
     font-size: 11px;
