@@ -169,16 +169,28 @@ main {
 .news-article:last-of-type p {
   padding-bottom: .25rem;
 }
+.posts {
+  padding-block: 4rem;
+}
 .post {
+  /* padding-block: 2rem; */
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  /* gap: 2rem; */
+}
+.post-img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 /* .post-content {
-  display: flex;
-
+  padding: 0;
 } */
+.post-content h3 {
+  font-size: 2rem;
+  color: var(--grayish-blue);
+}
 
 .attribution {
     font-size: 11px;
