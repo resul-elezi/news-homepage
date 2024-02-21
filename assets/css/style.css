@@ -79,7 +79,6 @@ header a {
   padding-top: 145px;
   padding-left: 1.5rem;
   gap: 1.5625rem;
-  /* overflow: hidden; */
   visibility: hidden;
   transition: width .25s linear;
 }
@@ -102,10 +101,8 @@ header a {
   display: inline-block;
   text-decoration: none;
   font-size: 1.125rem;
-  /* font-weight: 700; */
   color: black;
   position: relative;
-  /* opacity: 0; */
 }
 .hero-img {
   max-width: 100%;
@@ -170,24 +167,18 @@ main {
   padding-bottom: .25rem;
 }
 .posts {
-  /* padding-block: 4rem; */
+  padding-block: 4rem;
 }
 .post {
-  /* padding-block: 4rem 2rem; */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* gap: 2rem; */
 }
 .post-img {
-  padding-block: 4rem 0;
   max-width: 100%;
-  width: 100%;
+  width: 33%;
   height: auto;
 }
-/* .post-content {
-  padding: 0;
-} */
 .post-content h3 {
   font-size: 2rem;
   color: var(--grayish-blue);
