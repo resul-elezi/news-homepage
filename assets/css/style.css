@@ -169,6 +169,9 @@ main {
 .news-article:last-of-type p {
   padding-bottom: .25rem;
 }
+.post {
+  display: flex;
+}
 
 .attribution {
     font-size: 11px;
