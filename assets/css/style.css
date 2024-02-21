@@ -171,13 +171,17 @@ main {
 }
 .post {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .post-img {
   max-width: 100%;
-  width: 33%;
+  width: 29.5%;
   height: auto;
+  padding-bottom: 2rem;
+}
+.post-content {
+  padding-left: 1.5rem;
+  flex: 1;
 }
 .post-content h3 {
   font-size: 2rem;
