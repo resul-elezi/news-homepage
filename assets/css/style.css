@@ -170,16 +170,17 @@ main {
   padding-bottom: .25rem;
 }
 .posts {
-  padding-block: 4rem;
+  /* padding-block: 4rem; */
 }
 .post {
-  /* padding-block: 2rem; */
+  /* padding-block: 4rem 2rem; */
   display: flex;
   justify-content: center;
   align-items: center;
   /* gap: 2rem; */
 }
 .post-img {
+  padding-block: 4rem 0;
   max-width: 100%;
   width: 100%;
   height: auto;
