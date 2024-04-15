@@ -45,7 +45,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* transition: width .25s linear; */
 }
 .header.open-menu {
   margin-block: 1.65rem 1.9rem;
@@ -81,13 +80,13 @@ header a {
   padding-left: 1.5rem;
   gap: 1.5625rem;
   visibility: hidden;
-  transition: width .25s linear;
 }
 .nav-bar.open-menu {
   width: 68%;
   visibility: visible;
   min-height: 100vh;
   min-height: 100svh;
+  transition: .2s linear;
 }
 .overlay.open-menu {
   position: fixed;
