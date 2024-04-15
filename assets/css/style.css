@@ -50,7 +50,7 @@ body {
   margin-block: 1.65rem 1.9rem;
 }
 header a {
-  display: flex;
+  /* display: flex; */
 }
 .logo {
   width: 2.84375rem;
@@ -79,14 +79,22 @@ header a {
   padding-top: 145px;
   padding-left: 1.5rem;
   gap: 1.5625rem;
+  overflow: hidden;
   visibility: hidden;
+  transition: all .3s ease-in;
 }
 .nav-bar.open-menu {
   width: 68%;
-  visibility: visible;
   min-height: 100vh;
   min-height: 100svh;
-  transition: .2s linear;
+  visibility: visible;
+  /* transition: visibility .3s ease-in; */
+}
+.nav-bar.open-menu a {
+  opacity: 1;
+  /* transform: translateY(0); */
+  transition: opacity .3s ease-in;
+  transition-delay: .3s;
 }
 .overlay.open-menu {
   position: fixed;
@@ -103,6 +111,8 @@ header a {
   font-size: 1.125rem;
   color: black;
   position: relative;
+  opacity: 0;
+  transform: translateY(30px);
 }
 .hero-img {
   max-width: 100%;
