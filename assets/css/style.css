@@ -198,7 +198,7 @@ main {
   color: var(--grayish-blue);
 }
 
-@media screen and (min-width: 46.875em) {
+@media screen and (max-width: 37.5em) {
 
   
 }
