@@ -89,13 +89,13 @@ html {
     visibility: visible;
     transition: visibility .3s ease-in;
   } */
-  .nav-bar.open-menu a {
+  /* .nav-bar.open-menu a {
     opacity: 1;
-    /* transform: translateY(0); */
+    transform: translateY(0);
     transition: opacity .3s ease-in;
     transition-delay: .3s;
-  }
-  .overlay.open-menu {
+  } */
+  /* .overlay.open-menu {
     position: fixed;
     top: 0;
     left: 0;
@@ -103,8 +103,8 @@ html {
     min-height: 100vh;
     min-height: 100svh;
     background: rgba(0, 0, 0, .5);
-  }
-  .nav-bar a {
+  } */
+  /* .nav-bar a {
     display: inline-block;
     text-decoration: none;
     font-size: 1.125rem;
@@ -112,7 +112,7 @@ html {
     position: relative;
     opacity: 0;
     transform: translateY(30px);
-  }
+  } */
   .hero-img {
     max-width: 100%;
     width: 100%;
