@@ -36,6 +36,9 @@ html {
     font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
 }
+.nav-bar {
+  display: flex;
+}
 .nav-bar a {
   text-decoration: none;
 }
@@ -72,7 +75,10 @@ html {
   .nav-bar {
     position: fixed;
     inset: 0 0 0 32%;
+    flex-direction: column;
     background: white;
+    padding-top: min(20vh, 9.0625rem);
+    padding-left: 1.5rem;
   }
   /* .nav-bar {
     width: 0;
