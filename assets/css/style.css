@@ -55,13 +55,13 @@ html {
     width: 2.84375rem;
     height: 1.75rem;
   }
-  .menu {
+  .h-menu {
     width: 2.5rem;
     height: 1.0625rem;
     cursor: pointer;
     z-index: 3;
   }
-  .menu.open-menu {
+  .h-menu.open-menu {
     width: 2rem;
     height: 1.9375rem;
     margin-right: .25rem;

@@ -1,7 +1,7 @@
 "use strict";
 
 let navBar = document.getElementById("nav-bar");
-let menuIcon = document.getElementById("menu");
+let menuIcon = document.getElementById("h-menu");
 let header = document.getElementById("header");
 let overlay = document.getElementById("overlay");
 
