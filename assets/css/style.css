@@ -84,9 +84,12 @@ html {
   }
   .mobile-nav-toggle {
     position: absolute;
-    background: red;
-    width: 1rem;
-    aspect-ratio: 1;
+    background: url(/assets/images/icon-menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0;
+    width: 2.625rem;
+    height: 2rem;
     top: 2rem;
     right: 2rem;
     z-index: 100;
