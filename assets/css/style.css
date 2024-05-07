@@ -80,12 +80,16 @@ html {
     padding-top: min(30vh, 9.0625rem);
     padding-left: 1.5rem;
     gap: 1.5625rem;
+    z-index: 99;
   }
   .mobile-nav-toggle {
     position: absolute;
     background: red;
     width: 1rem;
     aspect-ratio: 1;
+    top: 2rem;
+    right: 2rem;
+    z-index: 100;
   }
   /* .nav-bar {
     width: 0;
