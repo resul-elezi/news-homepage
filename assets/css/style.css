@@ -36,6 +36,9 @@ html {
     font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
 }
+.nav-bar a {
+  text-decoration: none;
+}
 
 @media screen and (max-width: 37.5em) {
   body {
@@ -65,6 +68,11 @@ html {
     width: 2rem;
     height: 1.9375rem;
     margin-right: .25rem;
+  }
+  .nav-bar {
+    position: fixed;
+    inset: 0 0 0 32%;
+    background: white;
   }
   /* .nav-bar {
     width: 0;
