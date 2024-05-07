@@ -81,6 +81,12 @@ html {
     padding-left: 1.5rem;
     gap: 1.5625rem;
   }
+  .mobile-nav-toggle {
+    position: absolute;
+    background: red;
+    width: 1rem;
+    aspect-ratio: 1;
+  }
   /* .nav-bar {
     width: 0;
     height: 0;
