@@ -77,7 +77,7 @@ html {
     inset: 0 0 0 32%;
     flex-direction: column;
     background: white;
-    padding-top: min(20vh, 9.0625rem);
+    padding-top: min(30vh, 9.0625rem);
     padding-left: 1.5rem;
   }
   /* .nav-bar {
