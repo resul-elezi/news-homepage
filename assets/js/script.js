@@ -21,3 +21,10 @@
 
 const NAV_BAR = document.querySelector(".nav-bar");
 const NAV_TOGGLE = document.querySelector(".mobile-nav-toggle");
+
+NAV_TOGGLE.addEventListener("click", () => {
+    const VISIBILITY = NAV_BAR.getAttribute("data-visible");
+    if(VISIBILITY === "false"){
+        NAV_BAR.setAttribute("data-visible", true);
+    };
+})

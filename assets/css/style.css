@@ -87,6 +87,9 @@ body {
     z-index: 99;
     transform: translateX(100%);
   }
+  .nav-bar[data-visible="true"] {
+    transform: translateX(0%);
+  }
   .mobile-nav-toggle {
     display: block;
     position: absolute;
