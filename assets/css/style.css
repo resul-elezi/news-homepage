@@ -36,6 +36,11 @@ html {
     font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
 }
+body {
+  margin: 1rem;
+  font-size: .9375rem;
+  overflow-x: hidden;
+}
 .nav-bar {
   display: flex;
 }
@@ -47,10 +52,6 @@ html {
 }
 
 @media screen and (max-width: 37.5em) {
-  body {
-    margin: 1rem;
-    font-size: .9375rem;
-  }
   .header {
     margin-block: 1.75rem 1.975rem;
     display: flex;
@@ -84,6 +85,7 @@ html {
     padding-left: 1.5rem;
     gap: 1.5625rem;
     z-index: 99;
+    transform: translateX(100%);
   }
   .mobile-nav-toggle {
     display: block;
