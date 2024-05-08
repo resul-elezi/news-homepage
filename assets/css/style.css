@@ -42,6 +42,9 @@ html {
 .nav-bar a {
   text-decoration: none;
 }
+.mobile-nav-toggle {
+  display: none;
+}
 
 @media screen and (max-width: 37.5em) {
   body {
@@ -83,13 +86,14 @@ html {
     z-index: 99;
   }
   .mobile-nav-toggle {
+    display: block;
     position: absolute;
     background: url(/assets/images/icon-menu.svg);
     background-repeat: no-repeat;
     background-position: center;
     border: 0;
     width: 2.625rem;
-    height: 2rem;
+    aspect-ratio: 1;
     top: 2rem;
     right: 2rem;
     z-index: 100;
