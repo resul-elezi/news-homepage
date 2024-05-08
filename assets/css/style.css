@@ -43,12 +43,12 @@ body {
 }
 .logo {
   width: 4.0625rem;
-  height: 2.5625rem;
+  height: 2rem;
   background-image: url(/assets/images/logo.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
-  padding: 1rem;
+  background-size: contain;
   border: none;
 }
 .nav-bar {
