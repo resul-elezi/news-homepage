@@ -42,8 +42,9 @@ body {
   overflow-x: hidden;
 }
 .logo {
-  width: 4.0625rem;
-  height: 2rem;
+  /* width: 4.0625rem; */
+  height: 2.75rem;
+  aspect-ratio: 1;
   background-image: url(/assets/images/logo.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -67,6 +68,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
   }
   .header.open-menu {
     margin-block: 1.65rem 1.9rem;
@@ -99,8 +101,7 @@ body {
   }
   .mobile-nav-toggle {
     display: block;
-    position: absolute;
-    background-color: grey;
+    background-color: transparent;
     background-image: url(/assets/images/icon-menu.svg);
     background-repeat: no-repeat;
     background-position: center;
