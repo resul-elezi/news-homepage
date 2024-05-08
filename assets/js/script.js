@@ -24,7 +24,12 @@ const NAV_TOGGLE = document.querySelector(".mobile-nav-toggle");
 
 NAV_TOGGLE.addEventListener("click", () => {
     const VISIBILITY = NAV_BAR.getAttribute("data-visible");
+
     if(VISIBILITY === "false"){
         NAV_BAR.setAttribute("data-visible", true);
-    };
-})
+        NAV_TOGGLE.setAttribute("aria-expanded", true);
+    }else {
+        NAV_BAR.setAttribute("data-visible", false);
+        NAV_TOGGLE.setAttribute("aria-expanded", false);
+    }
+});
