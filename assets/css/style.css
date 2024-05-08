@@ -41,6 +41,16 @@ body {
   font-size: .9375rem;
   overflow-x: hidden;
 }
+.logo {
+  width: 4.0625rem;
+  height: 2.5625rem;
+  background-image: url(/assets/images/logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  padding: 1rem;
+  border: none;
+}
 .nav-bar {
   display: flex;
 }
@@ -60,10 +70,6 @@ body {
   }
   .header.open-menu {
     margin-block: 1.65rem 1.9rem;
-  }
-  .logo {
-    width: 2.84375rem;
-    height: 1.75rem;
   }
   .h-menu {
     width: 2.5rem;
