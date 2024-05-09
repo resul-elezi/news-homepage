@@ -43,7 +43,7 @@ body {
 }
 .logo {
   /* width: 4.0625rem; */
-  height: 2.75rem;
+  height: 2.84375rem;
   aspect-ratio: 1;
   background-image: url(/assets/images/logo.svg);
   background-repeat: no-repeat;
@@ -64,7 +64,7 @@ body {
 
 @media screen and (max-width: 37.5em) {
   .header {
-    margin-block: 1.75rem 1.975rem;
+    margin-block: 1.25rem 1.4375rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
