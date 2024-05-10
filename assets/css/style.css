@@ -121,10 +121,9 @@ body {
     position: fixed;
     transform: translateX(100%);
     background: rgba(0, 0, 0, .5);
+    /* z-index: 98; */
   }
-  .overlay[data-visible="true"] {
-    transform: translateX(0%);
-  }
+  
   /* .nav-bar {
     width: 0;
     height: 0;

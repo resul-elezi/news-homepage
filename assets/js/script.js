@@ -25,15 +25,13 @@ const OVERLAY = document.querySelector(".overlay");
 
 NAV_TOGGLE.addEventListener("click", () => {
     const VISIBILITY = NAV_BAR.getAttribute("data-visible");
-    const OVERLAY_VIS = OVERLAY.getAttribute("data-visible");
 
-    if(VISIBILITY === "false" && OVERLAY_VIS === "false"){
+    if(VISIBILITY === "false"){
         NAV_BAR.setAttribute("data-visible", true);
         NAV_TOGGLE.setAttribute("aria-expanded", true);
         OVERLAY.setAttribute("data-visible", true);
     }else {
         NAV_BAR.setAttribute("data-visible", false);
         NAV_TOGGLE.setAttribute("aria-expanded", false);
-        OVERLAY.setAttribute("data-visible", false);
     }
 });
