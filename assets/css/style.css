@@ -113,7 +113,7 @@ body {
     z-index: 100;
   }
   .mobile-nav-toggle[aria-expanded="true"] {
-    background-image: url(/assets/images/icon-menu-close.svg);
+    background-image: url(../images/icon-menu-close.svg);
     background-repeat: no-repeat;
   }
   /* .nav-bar {
