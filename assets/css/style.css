@@ -45,7 +45,7 @@ body {
   /* width: 4.0625rem; */
   height: 2.84375rem;
   aspect-ratio: 1;
-  background-image: url(/assets/images/logo.svg);
+  background-image: url(../images/logo.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
