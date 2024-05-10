@@ -102,7 +102,7 @@ body {
   .mobile-nav-toggle {
     display: block;
     background-color: transparent;
-    background-image: url(/assets/images/icon-menu.svg);
+    background-image: url(../images/icon-menu.svg);
     background-repeat: no-repeat;
     background-position: center;
     border: 0;
