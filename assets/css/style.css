@@ -70,20 +70,20 @@ body {
     align-items: center;
     overflow: hidden;
   }
-  .header.open-menu {
+  /* .header.open-menu {
     margin-block: 1.65rem 1.9rem;
-  }
-  .h-menu {
+  } */
+  /* .h-menu {
     width: 2.5rem;
     height: 1.0625rem;
     cursor: pointer;
     z-index: 3;
-  }
-  .h-menu.open-menu {
+  } */
+  /* .h-menu.open-menu {
     width: 2rem;
     height: 1.9375rem;
     margin-right: .25rem;
-  }
+    } */
   .nav-bar {
     position: fixed;
     inset: 0 0 0 32%;
