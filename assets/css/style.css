@@ -95,7 +95,7 @@ body {
     gap: 1.5625rem;
     z-index: 99;
     transform: translateX(100%);
-    transition: transform .5s ease-out;
+    transition: transform .35s ease-out;
   }
   .nav-bar[data-visible="true"] {
     transform: translateX(0%);
@@ -119,9 +119,14 @@ body {
   }
   .overlay {
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     transform: translateX(100%);
+    min-height: 100vh;
+    min-height: 100svh;
     background: rgba(0, 0, 0, .5);
-    /* z-index: 98; */
+    z-index: 98;
   }
   
   /* .nav-bar {

@@ -29,9 +29,10 @@ NAV_TOGGLE.addEventListener("click", () => {
     if(VISIBILITY === "false"){
         NAV_BAR.setAttribute("data-visible", true);
         NAV_TOGGLE.setAttribute("aria-expanded", true);
-        OVERLAY.setAttribute("data-visible", true);
+        OVERLAY.style.transform = "translateX(0%)";
     }else {
         NAV_BAR.setAttribute("data-visible", false);
         NAV_TOGGLE.setAttribute("aria-expanded", false);
+        OVERLAY.style.transform = "translateX(100%)";
     }
 });
