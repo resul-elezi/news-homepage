@@ -211,7 +211,10 @@ body {
     text-decoration: none;
     font-size: 1.125rem;
     font-weight: 700;
-    padding-block: .3125rem .75rem;
+    padding-block: .3125rem .5rem;
+  }
+  .post-content p {
+    line-height: 1.75;
   }
 }
 .attribution {
