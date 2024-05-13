@@ -211,7 +211,7 @@ body {
     text-decoration: none;
     font-size: 1.125rem;
     font-weight: 700;
-    padding-block: .7rem;
+    padding-block: .3125rem .75rem;
   }
 }
 .attribution {
