@@ -119,11 +119,6 @@ body {
     background: rgba(0, 0, 0, .5);
     z-index: 98;
   }
-  .hero-img {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-  }
   main {
     min-height: 100vh;
     min-height: 100svh;
@@ -137,6 +132,11 @@ body {
   .hero-text {
     line-height: 1.75;
     color: var(--dark-grayish-blue);
+  }
+  .hero-img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
   }
   .hero-cta {
     margin-top: 1.5rem;
