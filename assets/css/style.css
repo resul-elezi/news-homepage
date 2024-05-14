@@ -38,7 +38,8 @@ html {
 }
 body {
   display: grid;
-  margin: 1rem;
+  grid-template-columns: 2fr 1fr;
+  /* margin: 1rem; */
   font-size: .9375rem;
   overflow-x: hidden;
 }
@@ -64,6 +65,13 @@ body {
 }
 
 @media screen and (max-width: 43.75em) {
+  body {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 1rem;
+    font-size: .9375rem;
+    overflow-x: hidden;
+  }
   .header {
     margin-block: 1.25rem 1.4375rem;
     display: flex;
