@@ -161,6 +161,7 @@ main {
     z-index: 98;
   }
   main {
+    display: block;
     min-height: 100vh;
     min-height: 100svh;
   }
