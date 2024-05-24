@@ -46,36 +46,36 @@ body {
   grid-column: 1 / 4;
   grid-row: 1 / 2;
 } */
-main {
+/* main {
   display: grid;
   grid-template-columns: 2fr 1fr;
-}
-.hero {
+} */
+/* .hero {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-column: 1 / 3;
   grid-row: 1 / 3;
-}
-.hero-header {
+} */
+/* .hero-header {
   grid-column: 1 / 2;
   grid-row: 3 / 4;
-}
-.hero-text {
+} */
+/* .hero-text {
   grid-column: 2 / 3;
   grid-row: 3 / 4;
-}
-.hero-cta {
+} */
+/* .hero-cta {
   grid-column: 2 / 3;
   grid-row: 4 / 5;
-}
-.news {
+} */
+/* .news {
   grid-column: 3 / 4;
   grid-row: 2 / 6;
-}
-.posts {
+} */
+/* .posts {
   grid-column: 1 / 4;
   grid-row: 5 / 6;
-}
+} */
 .logo {
   /* width: 4.0625rem; */
   height: 2.84375rem;
