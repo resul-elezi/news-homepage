@@ -38,6 +38,7 @@ html {
 }
 
 body {
+  background: var(--off-white);
   display: flex;
   flex-direction: column;
   margin-inline: 1rem;
