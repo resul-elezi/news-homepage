@@ -224,9 +224,10 @@ main {
     display: flex;
     flex-direction: column;
     font-size: .9375rem;
+    padding: 4rem 9rem;
     overflow-x: hidden;
+    /* height: 100vh; */
   }
-  
   main {
     display: flex;
     flex-wrap: wrap;
