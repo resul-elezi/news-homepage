@@ -114,8 +114,8 @@ body {
 }
 main {
   /* display: block; */
-  /* min-height: 100vh; */
-  /* min-height: 100svh; */
+  min-height: 100vh;
+  min-height: 100svh;
 }
 .hero-header {
   padding-block: 1.3rem .9125rem;
