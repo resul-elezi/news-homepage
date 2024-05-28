@@ -46,7 +46,7 @@ body {
   overflow-x: hidden;
 }
 .header {
-  margin-block: 1.25rem 1.4375rem;
+  margin-block: 1.25rem 1.4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,7 +54,7 @@ body {
 }
 .logo {
   /* width: 4.0625rem; */
-  height: 2.84375rem;
+  height: 2.8375rem;
   aspect-ratio: 1;
   background-image: url(../images/logo.svg);
   background-repeat: no-repeat;
