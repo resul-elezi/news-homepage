@@ -220,7 +220,7 @@ main {
 .attribution a {
     color: var(--very-dark-blue);
 }
-@media screen and (min-width: 60em) {
+@media screen and (min-width: 64em) {
   body {
     /* display: flex; */
     /* flex-direction: column; */
@@ -228,6 +228,7 @@ main {
     padding: 3.5rem 9.3125rem;
     overflow-x: hidden;
   }
+  
   .header {
     margin-block: 1.25rem 2.625rem;
     display: flex;
@@ -264,6 +265,10 @@ main {
   .nav-bar a {
     font-size: 1rem;
     color: var(--dark-grayish-blue);
+    transition: color .3s;
+  }
+  .nav-bar a:hover {
+    color: var(--soft-red);
   }
   main {
     display: flex;
@@ -304,12 +309,22 @@ main {
     grid-row: 2 / 3;
     justify-self: start;
 	  align-self: end;
+    transition: background .3s;
+  }
+  .hero-cta:hover {
+    background: var(--very-dark-blue);
   }
   .news {
     width: 31.75%;
     margin: 0;
     padding: 1.75rem 1.65rem;
     /* height: 100%; */
+  }
+  .news-article h3 {
+    transition: color .3s;
+  }
+  .news-article h3:hover {
+    color: var(--soft-orange);
   }
   .news-header {
     font-size: 2.5rem;
@@ -319,16 +334,19 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     grid-row: 1fr;
     padding-block: 2.75rem 0;
-    gap: 1.5rem;
+    gap: 1.625rem;
   }
   .post-content {
     align-items: flex-start;
   }
+  .post-content a {
+    transition: color .3s;
+  }
+  .post-content a:hover {
+    color: var(--soft-red);
+  }
   .post-img {
     width: 28.5%;
-  }
-  .nav-bar a {
-    text-decoration: none;
   }
   .mobile-nav-toggle {
     display: none;
