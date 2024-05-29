@@ -269,8 +269,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* align-items: flex-start; */
-    /* align-items: center; */
+    align-items: flex-start;
     gap: 1.75rem;
     width: 100%;
     min-height: auto;
@@ -280,28 +279,29 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr .5fr;
-    min-height: 100%;
   }
   picture {
     grid-column: 1 / 5;
     grid-row: 1 / 2;
   }
   .hero-header {
-    padding-block: .5rem 0;
+    padding-block: 1.65rem .85rem;
     grid-column: 1 / 3;
     grid-row: 2 / 3;
     font-size: 3.5rem;
   }
   .hero-text {
-    padding-top: 1rem;
+    padding-top: 1.65rem;
+    /* padding-bottom: 2rem; */
     padding-left: .85rem;
+    align-self: start;
     line-height: 1.6;
     grid-column: 3 / 5;
     grid-row: 2 / 3;
   }
   .hero-cta {
     margin-left: .85rem;
-    margin-top: .5rem;
+    /* margin-top: 3rem; */
     grid-column: 3 / 5;
     grid-row: 2 / 3;
     justify-self: start;
