@@ -273,7 +273,7 @@ main {
     /* align-items: center; */
     gap: 1.75rem;
     width: 100%;
-    /* min-height: 50vh; */
+    min-height: auto;
   }
   .hero {
     flex: 1;
