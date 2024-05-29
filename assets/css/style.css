@@ -53,7 +53,6 @@ body {
   overflow: hidden;
 }
 .logo {
-  /* width: 4.0625rem; */
   height: 2.8375rem;
   aspect-ratio: 1;
   background-image: url(../images/logo.svg);
@@ -86,7 +85,6 @@ body {
   color: var(--very-dark-blue);
 }
 .mobile-nav-toggle {
-  /* display: block; */
   background-color: transparent;
   background-image: url(../images/icon-menu.svg);
   background-repeat: no-repeat;
@@ -114,7 +112,6 @@ body {
   z-index: 98;
 }
 main {
-  /* display: block; */
   min-height: 100vh;
   min-height: 100svh;
 }
@@ -208,7 +205,6 @@ main {
   font-weight: 700;
   padding-block: .5rem;
 }
-
 .post-content p {
   line-height: 1.75;
 }
@@ -216,14 +212,13 @@ main {
     font-size: 11px;
     text-align: center;
     color: var(--dark-grayish-blue);
+    margin-bottom: 1rem;
 }
 .attribution a {
     color: var(--very-dark-blue);
 }
 @media screen and (min-width: 64em) {
   body {
-    /* display: flex; */
-    /* flex-direction: column; */
     font-size: .9375rem;
     padding: 3.5rem 9.3125rem;
     overflow-x: hidden;
@@ -232,35 +227,18 @@ main {
   .header {
     margin-block: 1.25rem 2.625rem;
     display: flex;
-    /* width: 100%; */
-    /* justify-content: space-around; */
-    /* align-items: start; */
     overflow: hidden;
   }
   .logo {
-    /* width: 4.0625rem; */
     height: 4.0625rem;
-    /* aspect-ratio: 1; */
-    /* background-image: url(../images/logo.svg); */
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
-    /* background-color: transparent; */
-    /* background-size: contain; */
-    /* border: none; */
   }
   .nav-bar {
-    /* display: flex; */
     position: relative;
     inset: 0;
     flex-direction: row;
-    /* justify-content: center; */
-    /* background: white; */
-    /* padding-top: min(30vh, 9.0625rem); */
     padding: 0;
     gap: 2.4125rem;
-    /* z-index: 99; */
     transform: translateX(0%);
-    /* transition: transform .35s ease-out; */
   }
   .nav-bar a {
     font-size: 1rem;
@@ -318,7 +296,6 @@ main {
     width: 31.75%;
     margin: 0;
     padding: 1.75rem 1.65rem;
-    /* height: 100%; */
   }
   .news-article h3 {
     transition: color .3s;
