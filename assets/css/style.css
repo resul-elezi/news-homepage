@@ -279,6 +279,7 @@ main {
     grid-template-rows: repeat(4, 1fr);
     height: 100%;
     width: 100%;
+    gap: 2rem
   }
   picture {
     grid-column: 1 / 5;
